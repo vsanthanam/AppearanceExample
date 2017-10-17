@@ -13,6 +13,11 @@
 		072799411F96716E00B0A717 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 072799401F96716E00B0A717 /* Assets.xcassets */; };
 		072799441F96716E00B0A717 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 072799421F96716E00B0A717 /* LaunchScreen.storyboard */; };
 		072799471F96716E00B0A717 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 072799461F96716E00B0A717 /* main.m */; };
+		0727994F1F96718700B0A717 /* AppearanceProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0727994E1F96718700B0A717 /* AppearanceProxy.m */; };
+		072799521F967B3800B0A717 /* SpecialObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 072799511F967B3800B0A717 /* SpecialObject.m */; };
+		072799551F9683BA00B0A717 /* SpecialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 072799541F9683BA00B0A717 /* SpecialViewController.m */; };
+		072799581F9683F700B0A717 /* SpecialViewControllerAppearanceProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 072799571F9683F700B0A717 /* SpecialViewControllerAppearanceProxy.m */; };
+		0727995B1F9689BF00B0A717 /* SpecialView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0727995A1F9689BF00B0A717 /* SpecialView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,16 @@
 		072799431F96716E00B0A717 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		072799451F96716E00B0A717 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		072799461F96716E00B0A717 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0727994D1F96718700B0A717 /* AppearanceProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppearanceProxy.h; sourceTree = "<group>"; };
+		0727994E1F96718700B0A717 /* AppearanceProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppearanceProxy.m; sourceTree = "<group>"; };
+		072799501F967B3800B0A717 /* SpecialObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpecialObject.h; sourceTree = "<group>"; };
+		072799511F967B3800B0A717 /* SpecialObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpecialObject.m; sourceTree = "<group>"; };
+		072799531F9683BA00B0A717 /* SpecialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpecialViewController.h; sourceTree = "<group>"; };
+		072799541F9683BA00B0A717 /* SpecialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpecialViewController.m; sourceTree = "<group>"; };
+		072799561F9683F700B0A717 /* SpecialViewControllerAppearanceProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpecialViewControllerAppearanceProxy.h; sourceTree = "<group>"; };
+		072799571F9683F700B0A717 /* SpecialViewControllerAppearanceProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpecialViewControllerAppearanceProxy.m; sourceTree = "<group>"; };
+		072799591F9689BF00B0A717 /* SpecialView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpecialView.h; sourceTree = "<group>"; };
+		0727995A1F9689BF00B0A717 /* SpecialView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpecialView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +75,21 @@
 			children = (
 				072799371F96716E00B0A717 /* AppDelegate.h */,
 				072799381F96716E00B0A717 /* AppDelegate.m */,
+				072799591F9689BF00B0A717 /* SpecialView.h */,
+				0727995A1F9689BF00B0A717 /* SpecialView.m */,
+				072799501F967B3800B0A717 /* SpecialObject.h */,
+				072799511F967B3800B0A717 /* SpecialObject.m */,
+				0727994D1F96718700B0A717 /* AppearanceProxy.h */,
+				0727994E1F96718700B0A717 /* AppearanceProxy.m */,
+				072799531F9683BA00B0A717 /* SpecialViewController.h */,
+				072799541F9683BA00B0A717 /* SpecialViewController.m */,
+				072799561F9683F700B0A717 /* SpecialViewControllerAppearanceProxy.h */,
+				072799571F9683F700B0A717 /* SpecialViewControllerAppearanceProxy.m */,
 				0727993A1F96716E00B0A717 /* ViewController.h */,
 				0727993B1F96716E00B0A717 /* ViewController.m */,
 				0727993D1F96716E00B0A717 /* Main.storyboard */,
-				072799401F96716E00B0A717 /* Assets.xcassets */,
 				072799421F96716E00B0A717 /* LaunchScreen.storyboard */,
+				072799401F96716E00B0A717 /* Assets.xcassets */,
 				072799451F96716E00B0A717 /* Info.plist */,
 				072799461F96716E00B0A717 /* main.m */,
 			);
@@ -142,8 +167,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				072799551F9683BA00B0A717 /* SpecialViewController.m in Sources */,
 				0727993C1F96716E00B0A717 /* ViewController.m in Sources */,
+				072799521F967B3800B0A717 /* SpecialObject.m in Sources */,
 				072799471F96716E00B0A717 /* main.m in Sources */,
+				0727995B1F9689BF00B0A717 /* SpecialView.m in Sources */,
+				072799581F9683F700B0A717 /* SpecialViewControllerAppearanceProxy.m in Sources */,
+				0727994F1F96718700B0A717 /* AppearanceProxy.m in Sources */,
 				072799391F96716E00B0A717 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

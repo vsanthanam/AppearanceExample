@@ -8,6 +8,10 @@
 
 #import "AppDelegate.h"
 
+#import "SpecialView.h"
+#import "SpecialObject.h"
+#import "SpecialViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -17,7 +21,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    // Regular View with Appearance Proxy API
+    [SpecialView appearance].specialColor = [UIColor redColor];
+    
+    // Custom Appearance Proxy
+    [SpecialObject appearance].specialColor = [UIColor redColor];
+    
+    // Fake Appearance Proxy
+    [SpecialViewController appearance].specialColor = [UIColor redColor];
+    
     return YES;
+    
 }
 
 
