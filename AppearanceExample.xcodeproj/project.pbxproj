@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		072799391F96716E00B0A717 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 072799381F96716E00B0A717 /* AppDelegate.m */; };
-		0727993C1F96716E00B0A717 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0727993B1F96716E00B0A717 /* ViewController.m */; };
 		0727993F1F96716E00B0A717 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0727993D1F96716E00B0A717 /* Main.storyboard */; };
 		072799411F96716E00B0A717 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 072799401F96716E00B0A717 /* Assets.xcassets */; };
 		072799441F96716E00B0A717 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 072799421F96716E00B0A717 /* LaunchScreen.storyboard */; };
@@ -18,14 +17,15 @@
 		072799551F9683BA00B0A717 /* SpecialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 072799541F9683BA00B0A717 /* SpecialViewController.m */; };
 		072799581F9683F700B0A717 /* SpecialViewControllerAppearanceProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 072799571F9683F700B0A717 /* SpecialViewControllerAppearanceProxy.m */; };
 		0727995B1F9689BF00B0A717 /* SpecialView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0727995A1F9689BF00B0A717 /* SpecialView.m */; };
+		072893E31F969AE600BA44A0 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 072893E21F969AE600BA44A0 /* FirstViewController.m */; };
+		072893E61F969C1F00BA44A0 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 072893E51F969C1F00BA44A0 /* SecondViewController.m */; };
+		072893E91F969DBC00BA44A0 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 072893E81F969DBC00BA44A0 /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		072799341F96716E00B0A717 /* AppearanceExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppearanceExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		072799371F96716E00B0A717 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		072799381F96716E00B0A717 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0727993A1F96716E00B0A717 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0727993B1F96716E00B0A717 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0727993E1F96716E00B0A717 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		072799401F96716E00B0A717 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		072799431F96716E00B0A717 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -41,6 +41,12 @@
 		072799571F9683F700B0A717 /* SpecialViewControllerAppearanceProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpecialViewControllerAppearanceProxy.m; sourceTree = "<group>"; };
 		072799591F9689BF00B0A717 /* SpecialView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpecialView.h; sourceTree = "<group>"; };
 		0727995A1F9689BF00B0A717 /* SpecialView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpecialView.m; sourceTree = "<group>"; };
+		072893E11F969AE600BA44A0 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		072893E21F969AE600BA44A0 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		072893E41F969C1F00BA44A0 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		072893E51F969C1F00BA44A0 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		072893E71F969DBC00BA44A0 /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		072893E81F969DBC00BA44A0 /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +91,12 @@
 				072799541F9683BA00B0A717 /* SpecialViewController.m */,
 				072799561F9683F700B0A717 /* SpecialViewControllerAppearanceProxy.h */,
 				072799571F9683F700B0A717 /* SpecialViewControllerAppearanceProxy.m */,
-				0727993A1F96716E00B0A717 /* ViewController.h */,
-				0727993B1F96716E00B0A717 /* ViewController.m */,
+				072893E11F969AE600BA44A0 /* FirstViewController.h */,
+				072893E21F969AE600BA44A0 /* FirstViewController.m */,
+				072893E41F969C1F00BA44A0 /* SecondViewController.h */,
+				072893E51F969C1F00BA44A0 /* SecondViewController.m */,
+				072893E71F969DBC00BA44A0 /* ThirdViewController.h */,
+				072893E81F969DBC00BA44A0 /* ThirdViewController.m */,
 				0727993D1F96716E00B0A717 /* Main.storyboard */,
 				072799421F96716E00B0A717 /* LaunchScreen.storyboard */,
 				072799401F96716E00B0A717 /* Assets.xcassets */,
@@ -167,14 +177,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				072893E61F969C1F00BA44A0 /* SecondViewController.m in Sources */,
 				072799551F9683BA00B0A717 /* SpecialViewController.m in Sources */,
-				0727993C1F96716E00B0A717 /* ViewController.m in Sources */,
 				072799521F967B3800B0A717 /* SpecialObject.m in Sources */,
 				072799471F96716E00B0A717 /* main.m in Sources */,
 				0727995B1F9689BF00B0A717 /* SpecialView.m in Sources */,
 				072799581F9683F700B0A717 /* SpecialViewControllerAppearanceProxy.m in Sources */,
+				072893E91F969DBC00BA44A0 /* ThirdViewController.m in Sources */,
 				0727994F1F96718700B0A717 /* AppearanceProxy.m in Sources */,
 				072799391F96716E00B0A717 /* AppDelegate.m in Sources */,
+				072893E31F969AE600BA44A0 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,8 +8,10 @@
 
 @import UIKit;
 
+IB_DESIGNABLE
+
 @interface SpecialView : UIView<UIAppearance>
 
-@property (NS_NONATOMIC_IOSONLY, strong) UIColor *specialColor;
+@property (NS_NONATOMIC_IOSONLY, strong) UIColor *specialColor IBInspectable;
 
 @end
