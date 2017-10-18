@@ -10,6 +10,6 @@
 
 @interface SpecialViewController : UIViewController<UIAppearance>
 
-@property (NS_NONATOMIC_IOSONLY, strong) UIColor *specialColor UI_APPEARANCE_SELECTOR;
+@property (NS_NONATOMIC_IOSONLY, strong, nonnull) UIColor *specialColor UI_APPEARANCE_SELECTOR;
 
 @end

@@ -12,6 +12,6 @@ IB_DESIGNABLE
 
 @interface SpecialView : UIView<UIAppearance>
 
-@property (NS_NONATOMIC_IOSONLY, strong) UIColor *specialColor IBInspectable;
+@property (NS_NONATOMIC_IOSONLY, strong, nonnull) UIColor *specialColor IBInspectable UI_APPEARANCE_SELECTOR;
 
 @end

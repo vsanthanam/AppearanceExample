@@ -12,9 +12,9 @@
 
 @interface SecondViewController ()
 
-@property (weak, nonatomic) IBOutlet UIView *specialView;
+@property (NS_NONATOMIC_IOSONLY, weak) IBOutlet UIView *specialView;
 
-@property (nonatomic, strong) SpecialObject *specialObject;
+@property (NS_NONATOMIC_IOSONLY, strong) SpecialObject *specialObject;
 
 @end
 

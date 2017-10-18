@@ -10,8 +10,8 @@
 
 @interface SpecialObject : NSObject
 
-@property (nonatomic, strong) UIColor *specialColor;
+@property (NS_NONATOMIC_IOSONLY, strong, nonnull) UIColor *specialColor;
 
-+ (instancetype)appearance;
++ (nullable instancetype)appearance;
 
 @end
