@@ -10,6 +10,6 @@
 
 @interface SpecialViewControllerAppearanceProxy : UIView<UIAppearance>
 
-@property (NS_NONATOMIC_IOSONLY, strong) UIColor *specialColor UI_APPEARANCE_SELECTOR;
+@property (NS_NONATOMIC_IOSONLY, strong, nullable) UIColor *specialColor UI_APPEARANCE_SELECTOR;
 
 @end

@@ -12,7 +12,6 @@
 		072799411F96716E00B0A717 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 072799401F96716E00B0A717 /* Assets.xcassets */; };
 		072799441F96716E00B0A717 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 072799421F96716E00B0A717 /* LaunchScreen.storyboard */; };
 		072799471F96716E00B0A717 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 072799461F96716E00B0A717 /* main.m */; };
-		0727994F1F96718700B0A717 /* AppearanceProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0727994E1F96718700B0A717 /* AppearanceProxy.m */; };
 		072799521F967B3800B0A717 /* SpecialObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 072799511F967B3800B0A717 /* SpecialObject.m */; };
 		072799551F9683BA00B0A717 /* SpecialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 072799541F9683BA00B0A717 /* SpecialViewController.m */; };
 		072799581F9683F700B0A717 /* SpecialViewControllerAppearanceProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 072799571F9683F700B0A717 /* SpecialViewControllerAppearanceProxy.m */; };
@@ -20,6 +19,7 @@
 		072893E31F969AE600BA44A0 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 072893E21F969AE600BA44A0 /* FirstViewController.m */; };
 		072893E61F969C1F00BA44A0 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 072893E51F969C1F00BA44A0 /* SecondViewController.m */; };
 		072893E91F969DBC00BA44A0 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 072893E81F969DBC00BA44A0 /* ThirdViewController.m */; };
+		07E3E7851F9A7EF20053BC14 /* SpecialObjectAppearanceProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E3E7841F9A7EF20053BC14 /* SpecialObjectAppearanceProxy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,8 +31,6 @@
 		072799431F96716E00B0A717 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		072799451F96716E00B0A717 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		072799461F96716E00B0A717 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0727994D1F96718700B0A717 /* AppearanceProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppearanceProxy.h; sourceTree = "<group>"; };
-		0727994E1F96718700B0A717 /* AppearanceProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppearanceProxy.m; sourceTree = "<group>"; };
 		072799501F967B3800B0A717 /* SpecialObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpecialObject.h; sourceTree = "<group>"; };
 		072799511F967B3800B0A717 /* SpecialObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpecialObject.m; sourceTree = "<group>"; };
 		072799531F9683BA00B0A717 /* SpecialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpecialViewController.h; sourceTree = "<group>"; };
@@ -47,6 +45,8 @@
 		072893E51F969C1F00BA44A0 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		072893E71F969DBC00BA44A0 /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		072893E81F969DBC00BA44A0 /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		07E3E7831F9A7EF20053BC14 /* SpecialObjectAppearanceProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpecialObjectAppearanceProxy.h; sourceTree = "<group>"; };
+		07E3E7841F9A7EF20053BC14 /* SpecialObjectAppearanceProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpecialObjectAppearanceProxy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +85,6 @@
 				0727995A1F9689BF00B0A717 /* SpecialView.m */,
 				072799501F967B3800B0A717 /* SpecialObject.h */,
 				072799511F967B3800B0A717 /* SpecialObject.m */,
-				0727994D1F96718700B0A717 /* AppearanceProxy.h */,
-				0727994E1F96718700B0A717 /* AppearanceProxy.m */,
 				072799531F9683BA00B0A717 /* SpecialViewController.h */,
 				072799541F9683BA00B0A717 /* SpecialViewController.m */,
 				072799561F9683F700B0A717 /* SpecialViewControllerAppearanceProxy.h */,
@@ -102,6 +100,8 @@
 				072799401F96716E00B0A717 /* Assets.xcassets */,
 				072799451F96716E00B0A717 /* Info.plist */,
 				072799461F96716E00B0A717 /* main.m */,
+				07E3E7831F9A7EF20053BC14 /* SpecialObjectAppearanceProxy.h */,
+				07E3E7841F9A7EF20053BC14 /* SpecialObjectAppearanceProxy.m */,
 			);
 			path = AppearanceExample;
 			sourceTree = "<group>";
@@ -181,10 +181,10 @@
 				072799551F9683BA00B0A717 /* SpecialViewController.m in Sources */,
 				072799521F967B3800B0A717 /* SpecialObject.m in Sources */,
 				072799471F96716E00B0A717 /* main.m in Sources */,
+				07E3E7851F9A7EF20053BC14 /* SpecialObjectAppearanceProxy.m in Sources */,
 				0727995B1F9689BF00B0A717 /* SpecialView.m in Sources */,
 				072799581F9683F700B0A717 /* SpecialViewControllerAppearanceProxy.m in Sources */,
 				072893E91F969DBC00BA44A0 /* ThirdViewController.m in Sources */,
-				0727994F1F96718700B0A717 /* AppearanceProxy.m in Sources */,
 				072799391F96716E00B0A717 /* AppDelegate.m in Sources */,
 				072893E31F969AE600BA44A0 /* FirstViewController.m in Sources */,
 			);

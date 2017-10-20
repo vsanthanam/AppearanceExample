@@ -8,13 +8,13 @@
 
 #import "SpecialObject.h"
 
-#import "AppearanceProxy.h"
+#import "SpecialObjectAppearanceProxy.h"
 
 @implementation SpecialObject
 
 + (instancetype)appearance {
     
-    return (SpecialObject *)[AppearanceProxy appearanceForClass:self];
+    return (SpecialObject *)[SpecialObjectAppearanceProxy sharedAppearanceProxy];
     
 }
 
@@ -26,7 +26,7 @@
         
         self.specialColor = [UIColor blueColor];
         
-        [(AppearanceProxy *)[[self class] appearance] startForwarding:self];
+        [(SpecialObjectAppearanceProxy *)[[self class] appearance] startForwarding:self];
         
     }
     
